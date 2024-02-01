@@ -1,5 +1,15 @@
 class Main {
     public static void main(String[] args) {
-        System.out.println("Merhaba, " + args[0]);
+        for (int i = 0; i < 9; i++) {
+            for (int j = 0; j < 9; j++) {
+                if (i + j < 9) {
+                    System.out.print("*");
+                }
+                else {
+                    System.out.print(" ");
+                }
+            }
+            System.out.println();
+        }
     }
 }
